@@ -1,4 +1,5 @@
 set transaction isolation level repeatable read 
+go
 begin tran
 select * from tblEmployee
 where EmployeeNumber=125
